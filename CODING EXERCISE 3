@@ -1,0 +1,26 @@
+package selfProgramming;
+
+public class Exercise5 {
+
+	public static void main(String[] args) {
+		
+		int age = 19;
+		String name = "Norshazlyn Idayu";
+		String code = "SKIP1013";
+		double weight = 50.3;
+		double height = 158.5;
+		boolean married = false;
+		char sem = '1';
+		char gender = 'F';
+		System.out.println("Student Information");
+		System.out.println("Name: " +name);
+		System.out.println("Gender: " +gender);
+		System.out.println("Course Code: " +code);
+		System.out.println("Semester: " +sem);
+		System.out.println("Age: " +age);
+		System.out.println("Weight: " + weight);
+		System.out.println("Height: " +height);
+		System.out.println("Married: " +married);
+	}
+
+}
