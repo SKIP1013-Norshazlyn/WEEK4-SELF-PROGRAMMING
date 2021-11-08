@@ -1,0 +1,31 @@
+package selfProgramming;
+import java.util.Scanner;
+public class Exercise6 {
+
+	public static void main(String[] args) {
+		
+		int add, sub, mul, avg;
+		int num1, num2, num3 ;
+		
+		Scanner scan = new Scanner (System.in);
+		
+		System.out.println("Enter integer 1 :");
+		num1 = scan.nextInt();
+		
+		System.out.println("Enter integer 2 :");
+		num2 = scan.nextInt();
+		
+		System.out.println("Enter integer 3 :");
+		num3 = scan.nextInt();
+		
+		add = num1 + num2 +num3;
+		sub = num1 - num2 - num3;
+		mul = num1*num2*num3;
+		
+		System.out.println("Addition = " +add);
+		System.out.println("Subtraction = " +sub);
+		System.out.println("Multiplication = " +mul);
+		
+	}
+
+}
