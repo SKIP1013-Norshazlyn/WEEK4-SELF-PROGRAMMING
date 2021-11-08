@@ -1,0 +1,23 @@
+package selfProgramming;
+import java.util.Scanner;
+public class Exercise7 {
+
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("Enter Integer: ");
+		int myInt = input.nextInt();
+		System.out.println("Integer entered: " +myInt);
+		
+		System.out.print("Enter Double: ");
+		double myDouble = input.nextDouble();
+		System.out.println("Double entered: " +myDouble);
+		
+		System.out.print("Enter String: ");
+		String myString = input.next();
+		System.out.println("String entered: " +myString);
+
+	}
+
+}
